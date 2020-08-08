@@ -50,3 +50,10 @@ hystrix:
         isolation:
           thread:
             timeoutInMillisecond: 10000 # 熔断超时时长：10000ms
+
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+logging:
+  level:
+    com.leyou.item: debug
